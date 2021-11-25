@@ -14,3 +14,9 @@
     text-decoration:line-through;
     color: rgba(148, 148, 148, 0.884);
 }
+
+.big{
+    height:1000px;
+    width:100%;
+    border:1px black solid;
+}

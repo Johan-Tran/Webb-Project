@@ -4,4 +4,3 @@ $(document).ready(function(){
         $(this).next(".strike").toggleClass("test1", $(this).is(":checked"));
     }); 
 });
-
