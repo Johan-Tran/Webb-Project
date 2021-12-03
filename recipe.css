@@ -1,7 +1,12 @@
-
-*{
+html,body{
     margin:0;
     padding:0;
+    height:100%;
+    width:100%;
+}
+
+.skyBlue{
+    background-color:rgb(165, 220, 241);
 }
 
 .big{
@@ -12,6 +17,32 @@
 
 .line{
     text-decoration: line-through;
-    color: rgba(153, 153, 153, 0.582);
+    font-weight: bold;
+}
+
+.recipeSteps{
+    list-style: inside;
+    list-style-type:decimal;
+}
+
+.imgContainer{
+    background:url("https://www.odense-marcipan.se/media/1877833/om_chokolade-cookies_17.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:992px){
+    .containerWidth{
+        max-width:100vw;
+        height:70vh;
+    }    
+}
+
+@media screen and (min-width:992px){
+    .containerWidth{
+        max-width:50vw;
+        height:100vh;
+    }    
 }
 
