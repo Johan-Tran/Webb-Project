@@ -25,24 +25,14 @@ html,body{
     list-style-type:decimal;
 }
 
+
 .imgContainer{
-    background:url("https://wallpaperaccess.com/full/58330.jpg");
+    max-width: 100%;
+    height: 80vh;    
+    background:url("https://wallpapercave.com/wp/wp9258444.jpg");
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width:992px){
-    .containerWidth{
-        max-width:100vw;
-        height:70vh;
-    }    
-}
-
-@media screen and (min-width:992px){
-    .containerWidth{
-        max-width:50vw;
-        height:90.5vh;
-    }    
-}
 
