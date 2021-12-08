@@ -4,3 +4,4 @@ $(document).ready(function(){
         $(this).next(".strike").toggleClass("line", $(this).is(":checked"));
     }); 
 });
+
