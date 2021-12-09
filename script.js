@@ -5,3 +5,8 @@ $(document).ready(function(){
     }); 
 });
 
+var defValue = $(".hej").val();
+
+function ChangeNum(num) {
+    $(".hej").val($(num).val() * defValue);
+}
