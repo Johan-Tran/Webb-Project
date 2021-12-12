@@ -9,4 +9,5 @@ var defValue = $(".hej").val();
 
 function ChangeNum(num) {
     $(".hej").val($(num).val() * defValue);
+    $(".portion").val($(num).val());
 }
