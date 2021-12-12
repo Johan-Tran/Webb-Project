@@ -3,14 +3,11 @@ html,body{
     padding:0;
     height:100%;
     width:100%;
+    background-color:skyblue;
 }
 
 body{
     padding-top:64px;
-}
-
-.skyBlue{
-    background-color:skyblue;
 }
 
 .nav-item:hover{
@@ -20,9 +17,15 @@ body{
 
 .navbar-custom{
     background-color: rgb(255,255,255);
+}   
+
+.navbar-custom .navbar-brand{
+    color:rgb(255,255,255);
+    background-color: rgb(135,206,235);
+    border-radius: 10px;
 }
 
-.navbar-custom .navbar-brand, .navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link{
     color:skyblue;
 }
 
@@ -31,7 +34,7 @@ body{
 }
 
 .navbar-custom .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(135,206,235, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(135,206,235)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
@@ -62,6 +65,11 @@ input[type=checkbox]{
     height:80%;
 }
 
+.portionContainer{
+    width:40vh;
+    height:auto;
+}
+
 .titleContainer{
     width:40%;
     height:100%;
@@ -80,12 +88,12 @@ input[type=checkbox]{
 .frontPgPic{
     max-width: 100%;
     height: 80vh;    
-    background:url("https://wallpapercave.com/wp/wp9258444.jpg");
+    background:url("../img/sky.jpg");
 }
 
 .recipePic{   
     height:100%;
-    background:url("https://images-gmi-pmc.edge-generalmills.com/df109202-f5dd-45a1-99b4-f10939afd509.jpg");
+    background:url("../img/pancake.jpg");
 }
 
 .frontPgPic, .recipePic{
@@ -95,6 +103,9 @@ input[type=checkbox]{
 }
 
 @media screen and (max-width: 992px) {
+    body{
+        padding-top: 50px;
+    }
     .recipeContainer, .titleContainer, .recipePicContainer{
         display:flex;
         width: 100%;
@@ -104,9 +115,6 @@ input[type=checkbox]{
     }
     .recipePicContainer{
         height:60%;
-    }
-    body{
-        padding-top: 50px;
     }
     .recipeBox{
         height:100%;
