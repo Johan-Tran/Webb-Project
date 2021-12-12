@@ -13,9 +13,7 @@ $(document).ready(function(){
     }); 
 });
 
-var defValue = $(".hej").val();
-
 function ChangeNum(num) {
-    $(".hej").val($(num).val() * defValue);
-    $(".portion").val($(num).val());
+    $(".portion").text($(num).val());
+    $(".hej").text($(num).val());
 }
