@@ -68,14 +68,16 @@ input[type=checkbox]{
     appearance: none;
     width: 15px;
     height: 25px;
-    background: rgb(135,206,235);
+    border-radius: 10px;
+    background: rgb(5, 107, 148);
     cursor: pointer;
 }
   
 .recipeSlider::-moz-range-thumb {
     width: 15px;
     height: 25px;
-    background: rgb(135,206,235);
+    border-radius: 10px;
+    background: rgb(5, 107, 148);
     cursor: pointer;
 }
 
@@ -143,6 +145,7 @@ input[type=checkbox]{
     .recipeBox{
         height:100%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
