@@ -1,9 +1,14 @@
+var recipeValue = [];
 
 $(document).ready(function(){
     $(".check").each(function(){
         if($(this).prop("checked")){
             $(this).next(".strike").addClass("line");
         }
+    });
+
+    $(".recipeVal").each(function(){
+        recipeValue.push(parseInt($(this).text(), 10));
     });
 });
 
@@ -15,5 +20,10 @@ $(document).ready(function(){
 
 function ChangeNum(num) {
     $(".portion").text($(num).val());
-    $(".hej").text($(num).val());
+
+    var recipeSum = recipeValue.map(x => x * $(num).val());
+
+    for(var i = 0; i < recipeSum.length; i++){
+        $(".recipeVal").eq(i).text(recipeSum[i]);
+    }
 }
