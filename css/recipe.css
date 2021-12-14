@@ -23,16 +23,16 @@ body {
 }
 
 .btn-secondary {
-    background-color:skyblue;
-    border:1px solid rgb(5, 107, 148);
+    background-color: skyblue;
+    border: 1px solid rgb(5, 107, 148);
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(6, 158, 218);
 }
 
 .card {
-    color:rgb(14, 173, 236);
+    color: rgb(14, 173, 236);
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -146,7 +146,7 @@ input[type=checkbox] {
     background: url("../img/chipcookies.jpg");
 }
 
-.browniePic{
+.browniePic {
     height: 100%;
     background: url("../img/brownie.jpg");
 }
