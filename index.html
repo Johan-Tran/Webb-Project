@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Home</title>
+    <title>Sky Recipes</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\recipe.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/recipe.css">
 </head>
-<body class="skyBlue">
-    <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html">Recipe</a>
+
+<body style="padding-top:55px;">
+    <nav class="navbar navbar-custom navbar-expand-lg fixed-top justify-content-end">
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto mt-1">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recipes.html">Recipes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+        <div class="navbar-collapse collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active d-flex justify-content-end">
+                    <a class="nav-link" href="index.html">Sky Recipes</a>
                 </li>
             </ul>
         </div>
     </nav>
-    
-    <div class="container-lg p-0 frontPgPic"></div>
 
-    
+    <div class="container-lg p-0 frontPgPic d-flex justify-content-center align-items-center">
+        <div class="w-75 h-75 d-flex justify-content-center align-items-center">
+            <h1 class="w-50 h-auto font-weight-bold text-white frontPgTitle m-0 text-center pb-4">Sky Recipes</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="display-4 text-white font-weight-bold">Desserts</h1>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="../img/pancake.jpg" alt="Pancake">
+                    <div class="card-body">
+                        <h5 class="card-title">Pancake</h5>
+                        <p class="card-text border-bottom pb-3">Learn a skill for life with our foolproof crêpe recipe
+                            that ensures perfect pancakes every time!</p>
+                        <a class="btn btn-secondary card-link" href="pancake.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="../img/chipcookies.jpg" alt="Cookies">
+                    <div class="card-body">
+                        <h5 class="card-title">Vintage chocolate chip cookies</h5>
+                        <p class="card-text border-bottom pb-3">An easy chocolate chip cookie recipe for soft biscuits
+                            with a squidgy middle that will impress family and friends. Make plenty as they're sure to
+                            be a hit!</p>
+                        <a class="btn btn-secondary card-link" href="cookies.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="../img/brownie.jpg" alt="Brownies">
+                    <div class="card-body">
+                        <h5 class="card-title">Homemade brownies</h5>
+                        <p class="card-text border-bottom pb-3">With crispy edges, fudgy middles, and rich chocolate flavor, these homemade brownies will disappear in no time.</p>
+                        <a class="btn btn-secondary card-link" href="brownies.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="javascript\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>

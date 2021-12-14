@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cookie recipe</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/recipe.css">
+</head>
+
+<body style="padding-top:60px;">
+    <nav class="navbar navbar-custom navbar-expand-lg fixed-top justify-content-end">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active d-flex justify-content-end">
+                    <a class="nav-link" href="index.html">Sky Recipes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid w-100 h-100 p-0 mx-0">
+        <div class="recipeBox p-0 mx-0 mb-5 border-bottom">
+            <div class="titleContainer d-flex flex-column justify-content-center align-items-center p-0">
+                <h1 class="font-weight-bold text-white">Chocolate chip cookies</h1>
+                <p class="text-white text-center px-3">This is the best chocolate chip cookies recipe ever! No funny
+                    ingredients, no chilling time, etc. Just a simple, straightforward, amazingly delicious, doughy yet
+                    still fully cooked, chocolate chip cookie that turns out perfectly every single time! </p>
+            </div>
+            <div class="recipePicContainer cookiePic p-0"></div>
+        </div>
+
+        <div class="portionContainer pl-3">
+            <p class="text-white text-center">Portion:<span class="portion">1</span></p>
+            <input class="recipeSlider w-100" data-toggle="tooltip" data-placement="top" title="test" autocomplete="off"
+                type="range" min="1" max="20" value="1" name="slider" oninput="ChangeNum(this)">
+        </div>
+
+        <div class="recipeBox p-0">
+            <div class="recipeContainer h-auto mb-5 pl-3">
+                <ul class="list-unstyled p-0 text-white">
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">150</span>g salted butter,
+                            softened</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">80</span>g light brown sugar
+                        </p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">80</span>g granulated sugar</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">2</span>tsp vanilla extract</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">1</span>large egg</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">225</span>g plain flour</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">0.5</span> tsp bicarbonate of
+                            soda</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">0.25</span> tsp salt</p>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">200</span>g plain chocolate
+                            chips
+                            or chunks</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="recipeContainer h-auto pl-3">
+                <ol class="recipeSteps p-0 text-white" type="1">
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Heat the oven to 190C/fan170C/gas 5 and line two baking sheets with non-stick baking paper.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Put softened salted butter, light brown muscovado sugar and granulated sugar into a bowl and
+                            beat until creamy.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Beat in vanilla extract and a large egg.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Sift plain flour, bicarbonate of soda and salt into the bowl and mix it in with a wooden
+                            spoon.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Add 200g plain chocolate chips or chunks and stir well.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Use a teaspoon to make small scoops of the mixture, spacing them well apart on the baking
+                            trays. This mixture should make about 30 cookies.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Bake for 8–10 mins until they are light brown on the edges and still slightly soft in the
+                            centre if you press them.
+                        </p>
+                    </li>
+                    <li class="mb-5">
+                        <input type="checkbox" class="check">
+                        <p class="strike d-inline border-bottom">
+                            Leave on the tray for a couple of mins to set and then lift onto a cooling rack.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

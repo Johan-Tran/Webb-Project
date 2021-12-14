@@ -2,43 +2,39 @@
 <html lang="en">
 
 <head>
-    <title>Recept</title>
+    <title>Pancake Recipe</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\recipe.css">
+    <link rel="stylesheet" href="css/recipe.css">
 </head>
 
-<body class="skyBlue">
-    <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html">Recipe</a>
+<body style="padding-top:60px;">
+    <nav class="navbar navbar-custom navbar-expand-lg fixed-top justify-content-end">
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <p class="navbar-toggler-icon my-0"></p>
+            <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto mt-1">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recipes.html">Recipes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+        <div class="navbar-collapse collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active d-flex justify-content-end">
+                    <a class="nav-link" href="index.html">Sky Recipes</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="container-fluid w-100 h-100 p-0 mx-0">
-        <div class="recipeBox p-0 mx-0 " mb-5 border-bottom">
+        <div class="recipeBox p-0 mx-0 mb-5 border-bottom">
             <div class="titleContainer d-flex flex-column justify-content-center align-items-center p-0">
-                <p class="h1 font-weight-bold text-white">Pancakes</p>
-                <a class="text-white" href="index.html">Recipes</a>
+                <h1 class="font-weight-bold text-white">Pancakes</h1>
+                <p class="text-white text-center px-3">
+                    Nothing says "weekend" like homemade pancakes for breakfast. Our easy recipe will help you whip them
+                    up in less than 30 minutes.
+                    Making pancake batter from scratch is so simple that you'll wonder why you never did it before! </p>
             </div>
-            <div class="recipePicContainer recipePic p-0"></div>
+            <div class="recipePicContainer pancakePic p-0"></div>
         </div>
 
         <div class="portionContainer pl-3">
@@ -52,28 +48,29 @@
                 <ul class="list-unstyled p-0 text-white">
                     <li class="mb-2">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline"><span class="recipeVal">100</span>g plain flour</p>
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">100</span>g plain flour</p>
                     </li>
                     <li class="mb-2">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline"><span class="recipeVal">2</span> large eggs</p>
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">2</span> large eggs</p>
                     </li>
                     <li class="mb-2">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline"><span class="recipeVal">300</span>ml milk</p>
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">300</span>ml milk</p>
                     </li>
                     <li class="mb-2">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline"><span class="recipeVal">1</span> tbsp sunflower or vegetable oil,
+                        <p class="strike d-inline border-bottom"><span class="recipeVal">1</span> tbsp sunflower or
+                            vegetable oil,
                             plus a little extra for frying</p>
                     </li>
                     <li class="mb-2">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">lemon wedges to serve (optional)</p>
+                        <p class="strike d-inline border-bottom">lemon wedges to serve (optional)</p>
                     </li>
                     <li class="mb-2">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">caster sugar to serve (optional)</p>
+                        <p class="strike d-inline border-bottom">caster sugar to serve (optional)</p>
                     </li>
                 </ul>
             </div>
@@ -82,34 +79,34 @@
                 <ol class="recipeSteps p-0 text-white" type="1">
                     <li class="mb-5">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">
+                        <p class="strike d-inline border-bottom">
                             Put the plain flour, large eggs, milk, sunflower or vegetable oil and a pinch of salt into a
                             bowl or large jug, then whisk to a smooth batter.
                         </p>
                     </li>
                     <li class="mb-5">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">
+                        <p class="strike d-inline border-bottom">
                             Set aside for 30 mins to rest if you have time, or start cooking straight away.
                         </p>
                     </li>
                     <li class="mb-5">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">
+                        <p class="strike d-inline border-bottom">
                             Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some
                             oiled kitchen paper.
                         </p>
                     </li>
                     <li class="mb-5">
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">
+                        <p class="strike d-inline border-bottom">
                             When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low
                             oven as you go.
                         </p>
                     </li>
                     <li>
                         <input type="checkbox" class="check">
-                        <p class="strike d-inline">
+                        <p class="strike d-inline border-bottom">
                             Serve with lemon wedges and caster sugar, or your favourite filling.
                             Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and
                             freeze for up to 2 months.
@@ -124,7 +121,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
     </script>
-    <script src="javascript\script.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>

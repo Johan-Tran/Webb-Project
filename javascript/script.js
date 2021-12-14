@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
 
     $(".recipeVal").each(function(){
-        recipeValue.push(parseInt($(this).text(), 10));
+        recipeValue.push(parseFloat($(this).text(), 10));
     });
 });
 
